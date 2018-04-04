@@ -4,9 +4,9 @@ variable "location" {
 }
 
 variable "environment"{
-    default = "pre-prod"
+    default = "stage"
 }
 
-variable "rabbitmq_username" {}
+variable "linux_username" {}
 
-variable "rabbitmq_password" {}
+variable "linux_password" {}
