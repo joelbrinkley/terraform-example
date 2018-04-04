@@ -1,15 +1,12 @@
 variable "name" {}
 variable "location" {}
-
 variable "vnet_address_spacing" {
-  //   default     = ["10.0.0.0/16"]
-  type        = "list"
+  type        = "string"
   description = ""
 }
 
 variable "subnet_address_prefixes" {
-  //   default     = ["10.0.2.0/24"]
-  type        = "list"
+  type        = "string"
   description = ""
 }
 
